@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Hash
-%define	pnam	Merge
+%define		pdir	Hash
+%define		pnam	Merge
 Summary:	Hash::Merge - merges arbitrarily deep hashes into a single hash
 Summary(pl):	Hash::Merge - modu³ Perla s³u¿±cy do ³±czenia tablic asocjacyjnych w jedn±
 Name:		perl-Hash-Merge
