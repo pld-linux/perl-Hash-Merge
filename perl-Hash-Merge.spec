@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Hash
 %define	pnam	Merge
-Summary:	Hash::Merge - Merges arbitrarily deep hashes into a single hash
-Summary(pl):	Hash::Merge - Modu³ perla s³u¿acy do ³±czenia tablic asocjacyjnych
+Summary:	Hash::Merge - merges arbitrarily deep hashes into a single hash
+Summary(pl):	Hash::Merge - modu³ perla s³u¿acy do ³±czenia tablic asocjacyjnych
 Name:		perl-Hash-Merge
 Version:	0.07
 Release:	1
