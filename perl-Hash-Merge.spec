@@ -6,6 +6,7 @@
 %define	pdir	Hash
 %define	pnam	Merge
 Summary:	Hash::Merge - Merges arbitrarily deep hashes into a single hash
+Summary(pl):	Hash::Merge - Modu³ perla s³u¿acy do ³±czenia tablic asocjacyjnych
 Name:		perl-Hash-Merge
 Version:	0.07
 Release:	1
@@ -29,6 +30,10 @@ is followed recursively, so that deeply nested hashes that are at
 the same level will be merged when the parent hashes are merged.
 Please note that self-referencing hashes, or recursive references,
 are not handled well by this method.
+
+%description -l pl
+Hash::Merge jest modu³em perla s³u¿acym do ³aczenia dwuch dowolnie
+g³êboko zagnie¿dzonych tablic asocjacyjnych w jedna. 
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
