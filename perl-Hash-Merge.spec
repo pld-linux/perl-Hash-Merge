@@ -10,8 +10,8 @@ Summary(pl):	Hash::Merge - modu³ Perla s³u¿±cy do ³±czenia tablic asocjacyjnych 
 Name:		perl-Hash-Merge
 Version:	0.07
 Release:	1
-# as perl itself
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	74c9d9fa310f64411c7e933d4e283c22
