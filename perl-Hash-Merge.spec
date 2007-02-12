@@ -6,7 +6,7 @@
 %define		pdir	Hash
 %define		pnam	Merge
 Summary:	Hash::Merge - merges arbitrarily deep hashes into a single hash
-Summary(pl):	Hash::Merge - modu³ Perla s³u¿±cy do ³±czenia tablic asocjacyjnych w jedn±
+Summary(pl.UTF-8):   Hash::Merge - moduÅ‚ Perla sÅ‚uÅ¼Ä…cy do Å‚Ä…czenia tablic asocjacyjnych w jednÄ…
 Name:		perl-Hash-Merge
 Version:	0.07
 Release:	1
@@ -30,16 +30,16 @@ so that deeply nested hashes that are at the same level will be merged
 when the parent hashes are merged. Please note that self-referencing
 hashes, or recursive references, are not handled well by this method.
 
-%description -l pl
-Hash::Merge jest modu³em Perla s³u¿±cym do ³±czenia dwóch dowolnie
-g³êboko zagnie¿d¿onych tablic asocjacyjnych w jedn±. Oznacza to, ¿e
-do dowolnego poziomu bêdzie dodawa³ niekonfliktuj±ce pary
-klucz-warto¶æ z jednego hasza do drugiego i postêpowa³ zgodnie ze
-zbiorem konkretnych regu³ w przypadku konfliktu. Tablica asocjacyjna
-jest ¶ledzona rekurencyjnie, wiêc g³êboko zagnie¿d¿one tablice bêd±ce
-na tym samym poziomie zostan± po³±czone przy ³±czeniu tablic przodków.
-Nale¿y zauwa¿yæ, ¿e samoodwo³uj±ce siê hasze oraz referencje
-rekurencyjne nie s± dobrze obs³ugiwane przez tê metodê.
+%description -l pl.UTF-8
+Hash::Merge jest moduÅ‚em Perla sÅ‚uÅ¼Ä…cym do Å‚Ä…czenia dwÃ³ch dowolnie
+gÅ‚Ä™boko zagnieÅ¼dÅ¼onych tablic asocjacyjnych w jednÄ…. Oznacza to, Å¼e
+do dowolnego poziomu bÄ™dzie dodawaÅ‚ niekonfliktujÄ…ce pary
+klucz-wartoÅ›Ä‡ z jednego hasza do drugiego i postÄ™powaÅ‚ zgodnie ze
+zbiorem konkretnych reguÅ‚ w przypadku konfliktu. Tablica asocjacyjna
+jest Å›ledzona rekurencyjnie, wiÄ™c gÅ‚Ä™boko zagnieÅ¼dÅ¼one tablice bÄ™dÄ…ce
+na tym samym poziomie zostanÄ… poÅ‚Ä…czone przy Å‚Ä…czeniu tablic przodkÃ³w.
+NaleÅ¼y zauwaÅ¼yÄ‡, Å¼e samoodwoÅ‚ujÄ…ce siÄ™ hasze oraz referencje
+rekurencyjne nie sÄ… dobrze obsÅ‚ugiwane przez tÄ™ metodÄ™.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
