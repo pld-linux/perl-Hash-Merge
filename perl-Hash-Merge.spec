@@ -6,7 +6,7 @@
 %define		pdir	Hash
 %define		pnam	Merge
 Summary:	Hash::Merge - merges arbitrarily deep hashes into a single hash
-Summary(pl.UTF-8):   Hash::Merge - moduł Perla służący do łączenia tablic asocjacyjnych w jedną
+Summary(pl.UTF-8):	Hash::Merge - moduł Perla służący do łączenia tablic asocjacyjnych w jedną
 Name:		perl-Hash-Merge
 Version:	0.07
 Release:	1
