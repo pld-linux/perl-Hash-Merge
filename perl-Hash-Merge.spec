@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Hash
 %define		pnam	Merge
 Summary:	Hash::Merge - merges arbitrarily deep hashes into a single hash
