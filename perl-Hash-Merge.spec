@@ -8,7 +8,7 @@ Summary:	Hash::Merge - merges arbitrarily deep hashes into a single hash
 Summary(pl.UTF-8):	Hash::Merge - moduł Perla służący do łączenia tablic asocjacyjnych w jedną
 Name:		perl-Hash-Merge
 Version:	0.302
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Hash/%{pdir}-%{pnam}-%{version}.t
 # Source0-md5:	6f65d0a4ca2a7bd42975c8869dcc24da
 URL:		http://search.cpan.org/dist/Hash-Merge/
 BuildRequires:	perl-Clone
+BuildRequires:	perl-Clone-Choose
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
